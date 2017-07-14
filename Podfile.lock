@@ -1,0 +1,34 @@
+PODS:
+  - cocoa-oauth (0.0.1):
+    - NSData+Base64 (~> 1.0)
+  - CocoaLibSpotify (2.4.5):
+    - libspotify (= 12.1.64)
+  - ColorUtils (1.1.2)
+  - FontAwesome+iOS (0.1.1)
+  - LBBlurredImage (0.1.0)
+  - libspotify (12.1.64)
+  - MBProgressHUD (0.8)
+  - NSData+Base64 (1.0.0)
+  - SKInnerShadowLayer (1.1)
+
+DEPENDENCIES:
+  - cocoa-oauth (~> 0.0.1)
+  - CocoaLibSpotify (~> 2.4.5)
+  - ColorUtils (~> 1.1.2)
+  - FontAwesome+iOS (~> 0.1.1)
+  - LBBlurredImage (~> 0.1.0)
+  - MBProgressHUD (~> 0.8)
+  - SKInnerShadowLayer (~> 1.1)
+
+SPEC CHECKSUMS:
+  cocoa-oauth: 8f4c8b77c77ac660de37f8125557c4ec09b0118a
+  CocoaLibSpotify: 1719f45abb505d14ef84cfe64500b7e4924714b9
+  ColorUtils: 5740b610eb7b50833f46d6d9863ebaa1da55301d
+  FontAwesome+iOS: 243c5309e90d5788909b0f859f75ecff4a20f88f
+  LBBlurredImage: f44c432794e2a8a225f4c8a563aa1bd713b6b4c5
+  libspotify: 83337b28ad17bd27a7e7d4ac353e89f72f87bd29
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  NSData+Base64: 4819562faee4544e3cf5703f2139820b09732b28
+  SKInnerShadowLayer: f246f15fd78376c852ef8aeb5a2d5f8385945ea2
+
+COCOAPODS: 0.28.0

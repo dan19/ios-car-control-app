@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5022111918551A8D00B816DC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5022111818551A8C00B816DC /* CFNetwork.framework */; };
+		5022111B18551A9C00B816DC /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5022111A18551A9C00B816DC /* libstdc++.dylib */; };
+		5022111D18551AAA00B816DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5022111C18551AAA00B816DC /* Security.framework */; };
+		50283D4C185ACCE7005BFEB9 /* SpotifyTracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50283D4B185ACCE7005BFEB9 /* SpotifyTracksViewController.m */; };
+		50283D52185AEE90005BFEB9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50283D51185AEE90005BFEB9 /* SettingsViewController.m */; };
+		50283D58185AF666005BFEB9 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50283D56185AF666005BFEB9 /* CoreData.xcdatamodeld */; };
+		50283D5A185AF78C005BFEB9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50283D59185AF78B005BFEB9 /* CoreData.framework */; };
+		50283D5D185AFA63005BFEB9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 50283D5C185AFA63005BFEB9 /* User.m */; };
+		50283D61185AFB31005BFEB9 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50283D60185AFB31005BFEB9 /* UserManager.m */; };
+		5034D8C5185463D20096A36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5034D8C4185463D20096A36E /* Main.storyboard */; };
+		50365B5F185ECD7F00B0AE12 /* UserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 50365B5E185ECD7F00B0AE12 /* UserSetting.m */; };
+		50526412187E728E00EB5451 /* PlaylistCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50526411187E728E00EB5451 /* PlaylistCollectionViewCell.m */; };
+		505688CD1862C5570039D0E2 /* default-cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 505688CC1862C5570039D0E2 /* default-cover.png */; };
+		505688D41862D6FF0039D0E2 /* TrackProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 505688D31862D6FF0039D0E2 /* TrackProgressView.m */; };
 		505724FB185462E5009A9D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505724FA185462E5009A9D19 /* Foundation.framework */; };
 		505724FD185462E5009A9D19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505724FC185462E5009A9D19 /* CoreGraphics.framework */; };
 		505724FF185462E5009A9D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505724FE185462E5009A9D19 /* UIKit.framework */; };
@@ -19,6 +33,44 @@
 		50572516185462E5009A9D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505724FE185462E5009A9D19 /* UIKit.framework */; };
 		5057251E185462E5009A9D19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5057251C185462E5009A9D19 /* InfoPlist.strings */; };
 		50572520185462E5009A9D19 /* CarControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5057251F185462E5009A9D19 /* CarControlTests.m */; };
+		505FB3A31898E2F0001BB872 /* YelpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 505FB3A21898E2F0001BB872 /* YelpManager.m */; };
+		50674064185965E800E28968 /* SpotifyPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50674063185965E800E28968 /* SpotifyPlaylistViewController.m */; };
+		50713CE81856D6D200B86BAD /* SpotifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50713CE71856D6D200B86BAD /* SpotifyManager.m */; };
+		50732B551858547700A18554 /* SpotifyPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 50732B541858547700A18554 /* SpotifyPlaylist.m */; };
+		507586D7186D5C7900640383 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507586D6186D5C7900640383 /* PlayerViewController.m */; };
+		50837435188CEEF900CE1108 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 50837434188CEEF900CE1108 /* Contact.m */; };
+		5083743D188CFF2000CE1108 /* InnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5083743C188CFF2000CE1108 /* InnerShadowView.m */; };
+		508F4020189A0CD500EFE750 /* POI.m in Sources */ = {isa = PBXBuildFile; fileRef = 508F401F189A0CD500EFE750 /* POI.m */; };
+		508F4031189A26BD00EFE750 /* POIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 508F4030189A26BD00EFE750 /* POIQuery.m */; };
+		50988B3418602B0B00E48649 /* SPLoginResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50988B3318602B0B00E48649 /* SPLoginResources.bundle */; };
+		50988B3718602B9E00E48649 /* libspotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50988B3618602B9E00E48649 /* libspotify.framework */; };
+		50A5D43318864EEB00B8CBA5 /* TrackCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A5D43218864EEB00B8CBA5 /* TrackCollectionViewCell.m */; };
+		50A6BBC3189229C10043D000 /* PhoneActionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6BBC2189229C10043D000 /* PhoneActionCollectionViewCell.m */; };
+		50A6BBC618922F6B0043D000 /* ContactCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6BBC518922F6B0043D000 /* ContactCollectionViewCell.m */; };
+		50A6BBC8189232D30043D000 /* contact_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A6BBC7189232D30043D000 /* contact_icon.png */; };
+		50A6BBCB18923B570043D000 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6BBCA18923B570043D000 /* ContactManager.m */; };
+		50AAD060187BB5600040AB8E /* UIImageView+Cover.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AAD05F187BB5600040AB8E /* UIImageView+Cover.m */; };
+		50AC3A7E187A7288008D63DB /* spotify-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AC3A7D187A7288008D63DB /* spotify-logo.png */; };
+		50B2F7EB186B9EC2008BA8B0 /* Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2F7EA186B9EC2008BA8B0 /* Share.m */; };
+		50B2F7FA186BD338008BA8B0 /* NSMutableArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2F7F9186BD338008BA8B0 /* NSMutableArray+Helpers.m */; };
+		50BA907518616CDB00C40296 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BA907418616CDB00C40296 /* AudioToolbox.framework */; };
+		50BC504D188FB10D004B4455 /* maps_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BC504C188FB10D004B4455 /* maps_background.png */; };
+		50C55B8E1887B4060016625D /* PlaylistCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C55B8D1887B4060016625D /* PlaylistCollectionViewFlowLayout.m */; };
+		50D19A7518694BB300CCD2A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D19A7418694BB300CCD2A0 /* CoreLocation.framework */; };
+		50D19A7A18694BBA00CCD2A0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D19A7918694BBA00CCD2A0 /* CoreBluetooth.framework */; };
+		50D19A8E186A9B7700CCD2A0 /* BluetoothSenderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D19A8C186A9B7700CCD2A0 /* BluetoothSenderManager.m */; };
+		50D19A91186AAE6800CCD2A0 /* BluetoothReceiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D19A90186AAE6800CCD2A0 /* BluetoothReceiverManager.m */; };
+		50D71A4018767A2A00A5B6EE /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D71A3F18767A2A00A5B6EE /* IconButton.m */; };
+		50D71A45187681EE00A5B6EE /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50D71A44187681EE00A5B6EE /* fontawesome-webfont.ttf */; };
+		50D7A32218753DC000AA35EC /* PlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D7A32118753DC000AA35EC /* PlayerInfoViewController.m */; };
+		50D7A32B1875587000AA35EC /* ButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D7A32A1875587000AA35EC /* ButtonsViewController.m */; };
+		50D88F9D1854FC35009EA2E9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D88F9C1854FC35009EA2E9 /* MainViewController.m */; };
+		50DBE6EB1866A9BA0045EA6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DBE6EA1866A9BA0045EA6D /* AVFoundation.framework */; };
+		50EF2A9A188E4424001BAFA5 /* ButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EF2A99188E4424001BAFA5 /* ButtonCollectionViewCell.m */; };
+		50F89B0A1890DE6A0002BF54 /* map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F89B091890DE6A0002BF54 /* map_icon.png */; };
+		50F89B131890E9AB0002BF54 /* call_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F89B121890E9AB0002BF54 /* call_icon.png */; };
+		50F89B151890EF030002BF54 /* gas_station_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F89B141890EF030002BF54 /* gas_station_icon.png */; };
+		787A050290BE47D0BC2916C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBE98D28764439AA278B978 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +81,102 @@
 			remoteGlobalIDString = 505724F6185462E5009A9D19;
 			remoteInfo = CarControl;
 		};
+		5073D3001855A9EC00182933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 035659D2D83E4C2DB25835C3;
+			remoteInfo = Pods;
+		};
+		5073D3021855A9EC00182933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8409285D5C84C2B834C15CB;
+			remoteInfo = "Pods-CocoaLibSpotify";
+		};
+		5073D3041855A9EC00182933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 128D31EC2B8F4372BD336EC2;
+			remoteInfo = "Pods-libspotify";
+		};
+		508F402B189A0CD500EFE750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B408D56A4D77486891E068D1;
+			remoteInfo = "Pods-NSData+Base64";
+		};
+		508F402D189A0CD500EFE750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73AD7475537643C6AAB43BEB;
+			remoteInfo = "Pods-cocoa-oauth";
+		};
+		50A6BBBF189227800043D000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B532CAC1302C4EFC88ADA633;
+			remoteInfo = "Pods-MBProgressHUD";
+		};
+		50AAD066187BB5610040AB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8759BD70A7834A5292BF5CDB;
+			remoteInfo = "Pods-FontAwesome+iOS";
+		};
+		50BC5055188FB10D004B4455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63B68B55E00D401FAE9358A7;
+			remoteInfo = "Pods-ColorUtils";
+		};
+		50BC5057188FB10D004B4455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E5B1AC62705F4DAC982C9EB3;
+			remoteInfo = "Pods-LBBlurredImage";
+		};
+		50EF2AA0188E4424001BAFA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD3DD385DD74491BA7BFE0C2;
+			remoteInfo = "Pods-SKInnerShadowLayer";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5022111818551A8C00B816DC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5022111A18551A9C00B816DC /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		5022111C18551AAA00B816DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5022112118551F3B00B816DC /* appkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = appkey.c; path = ../appkey.c; sourceTree = "<group>"; };
+		50283D4A185ACCE7005BFEB9 /* SpotifyTracksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyTracksViewController.h; sourceTree = "<group>"; };
+		50283D4B185ACCE7005BFEB9 /* SpotifyTracksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyTracksViewController.m; sourceTree = "<group>"; };
+		50283D50185AEE90005BFEB9 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		50283D51185AEE90005BFEB9 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		50283D57185AF666005BFEB9 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		50283D59185AF78B005BFEB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		50283D5B185AFA63005BFEB9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		50283D5C185AFA63005BFEB9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		50283D5F185AFB31005BFEB9 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = Manager/UserManager.h; sourceTree = "<group>"; };
+		50283D60185AFB31005BFEB9 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = Manager/UserManager.m; sourceTree = "<group>"; };
+		5034D8C4185463D20096A36E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		50365B5D185ECD7F00B0AE12 /* UserSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSetting.h; path = Model/UserSetting.h; sourceTree = "<group>"; };
+		50365B5E185ECD7F00B0AE12 /* UserSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSetting.m; path = Model/UserSetting.m; sourceTree = "<group>"; };
+		50526410187E728E00EB5451 /* PlaylistCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistCollectionViewCell.h; path = Control/PlaylistCollectionViewCell.h; sourceTree = "<group>"; };
+		50526411187E728E00EB5451 /* PlaylistCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistCollectionViewCell.m; path = Control/PlaylistCollectionViewCell.m; sourceTree = "<group>"; };
+		505688CC1862C5570039D0E2 /* default-cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default-cover.png"; path = "../../design/content/default-cover.png"; sourceTree = "<group>"; };
+		505688D21862D6FF0039D0E2 /* TrackProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackProgressView.h; path = Control/TrackProgressView.h; sourceTree = "<group>"; };
+		505688D31862D6FF0039D0E2 /* TrackProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackProgressView.m; path = Control/TrackProgressView.m; sourceTree = "<group>"; };
 		505724F7185462E5009A9D19 /* CarControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505724FA185462E5009A9D19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		505724FC185462E5009A9D19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +193,70 @@
 		5057251B185462E5009A9D19 /* CarControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarControlTests-Info.plist"; sourceTree = "<group>"; };
 		5057251D185462E5009A9D19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5057251F185462E5009A9D19 /* CarControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarControlTests.m; sourceTree = "<group>"; };
+		505FB3A11898E2F0001BB872 /* YelpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpManager.h; path = Manager/YelpManager.h; sourceTree = "<group>"; };
+		505FB3A21898E2F0001BB872 /* YelpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpManager.m; path = Manager/YelpManager.m; sourceTree = "<group>"; };
+		50674062185965E800E28968 /* SpotifyPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyPlaylistViewController.h; sourceTree = "<group>"; };
+		50674063185965E800E28968 /* SpotifyPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyPlaylistViewController.m; sourceTree = "<group>"; };
+		50713CE61856D6D200B86BAD /* SpotifyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyManager.h; sourceTree = "<group>"; };
+		50713CE71856D6D200B86BAD /* SpotifyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyManager.m; sourceTree = "<group>"; };
+		50732B531858547700A18554 /* SpotifyPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyPlaylist.h; sourceTree = "<group>"; };
+		50732B541858547700A18554 /* SpotifyPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyPlaylist.m; sourceTree = "<group>"; };
+		5073D2FA1855A9EC00182933 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		507586D5186D5C7900640383 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerViewController.h; path = ViewController/PlayerViewController.h; sourceTree = "<group>"; };
+		507586D6186D5C7900640383 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerViewController.m; path = ViewController/PlayerViewController.m; sourceTree = "<group>"; };
+		50837433188CEEF900CE1108 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Model/Contact.h; sourceTree = "<group>"; };
+		50837434188CEEF900CE1108 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Model/Contact.m; sourceTree = "<group>"; };
+		5083743B188CFF2000CE1108 /* InnerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerShadowView.h; sourceTree = "<group>"; };
+		5083743C188CFF2000CE1108 /* InnerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerShadowView.m; sourceTree = "<group>"; };
+		508F401E189A0CD500EFE750 /* POI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POI.h; path = Model/POI.h; sourceTree = "<group>"; };
+		508F401F189A0CD500EFE750 /* POI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POI.m; path = Model/POI.m; sourceTree = "<group>"; };
+		508F402F189A26BD00EFE750 /* POIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POIQuery.h; path = Model/POIQuery.h; sourceTree = "<group>"; };
+		508F4030189A26BD00EFE750 /* POIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POIQuery.m; path = Model/POIQuery.m; sourceTree = "<group>"; };
+		50988B3318602B0B00E48649 /* SPLoginResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SPLoginResources.bundle; path = "Pods/CocoaLibSpotify/iOS Library/SPLoginResources.bundle"; sourceTree = "<group>"; };
+		50988B3618602B9E00E48649 /* libspotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libspotify.framework; sourceTree = "<group>"; };
+		50A5D43118864EEB00B8CBA5 /* TrackCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackCollectionViewCell.h; path = Control/TrackCollectionViewCell.h; sourceTree = "<group>"; };
+		50A5D43218864EEB00B8CBA5 /* TrackCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackCollectionViewCell.m; path = Control/TrackCollectionViewCell.m; sourceTree = "<group>"; };
+		50A6BBC1189229C10043D000 /* PhoneActionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneActionCollectionViewCell.h; path = Control/PhoneActionCollectionViewCell.h; sourceTree = "<group>"; };
+		50A6BBC2189229C10043D000 /* PhoneActionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneActionCollectionViewCell.m; path = Control/PhoneActionCollectionViewCell.m; sourceTree = "<group>"; };
+		50A6BBC418922F6B0043D000 /* ContactCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactCollectionViewCell.h; path = Control/ContactCollectionViewCell.h; sourceTree = "<group>"; };
+		50A6BBC518922F6B0043D000 /* ContactCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactCollectionViewCell.m; path = Control/ContactCollectionViewCell.m; sourceTree = "<group>"; };
+		50A6BBC7189232D30043D000 /* contact_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contact_icon.png; path = CarControl/images/icons/contact_icon.png; sourceTree = "<group>"; };
+		50A6BBC918923B570043D000 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		50A6BBCA18923B570043D000 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+		50AAD05E187BB5600040AB8E /* UIImageView+Cover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Cover.h"; path = "Category/UIImageView+Cover.h"; sourceTree = "<group>"; };
+		50AAD05F187BB5600040AB8E /* UIImageView+Cover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Cover.m"; path = "Category/UIImageView+Cover.m"; sourceTree = "<group>"; };
+		50AC3A7D187A7288008D63DB /* spotify-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spotify-logo.png"; path = "CarControl/images/spotify-logo.png"; sourceTree = "<group>"; };
+		50B2F7E9186B9EC2008BA8B0 /* Share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Share.h; path = Model/Share.h; sourceTree = "<group>"; };
+		50B2F7EA186B9EC2008BA8B0 /* Share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Share.m; path = Model/Share.m; sourceTree = "<group>"; };
+		50B2F7F8186BD338008BA8B0 /* NSMutableArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Helpers.h"; path = "Category/NSMutableArray+Helpers.h"; sourceTree = "<group>"; };
+		50B2F7F9186BD338008BA8B0 /* NSMutableArray+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Helpers.m"; path = "Category/NSMutableArray+Helpers.m"; sourceTree = "<group>"; };
+		50BA907318616CDB00C40296 /* CarControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CarControl.entitlements; sourceTree = "<group>"; };
+		50BA907418616CDB00C40296 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		50BC504C188FB10D004B4455 /* maps_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maps_background.png; path = CarControl/images/maps_background.png; sourceTree = "<group>"; };
+		50C55B8C1887B4060016625D /* PlaylistCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistCollectionViewFlowLayout.h; path = Control/PlaylistCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		50C55B8D1887B4060016625D /* PlaylistCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistCollectionViewFlowLayout.m; path = Control/PlaylistCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		50D19A7418694BB300CCD2A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		50D19A7918694BBA00CCD2A0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		50D19A8C186A9B7700CCD2A0 /* BluetoothSenderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothSenderManager.m; path = Manager/BluetoothSenderManager.m; sourceTree = "<group>"; };
+		50D19A8D186A9B7700CCD2A0 /* BluetoothSenderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BluetoothSenderManager.h; path = Manager/BluetoothSenderManager.h; sourceTree = "<group>"; };
+		50D19A8F186AAE6800CCD2A0 /* BluetoothReceiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BluetoothReceiverManager.h; path = Manager/BluetoothReceiverManager.h; sourceTree = "<group>"; };
+		50D19A90186AAE6800CCD2A0 /* BluetoothReceiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothReceiverManager.m; path = Manager/BluetoothReceiverManager.m; sourceTree = "<group>"; };
+		50D71A3E18767A2A00A5B6EE /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconButton.h; path = Control/IconButton.h; sourceTree = "<group>"; };
+		50D71A3F18767A2A00A5B6EE /* IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconButton.m; path = Control/IconButton.m; sourceTree = "<group>"; };
+		50D71A44187681EE00A5B6EE /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		50D7A32018753DC000AA35EC /* PlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerInfoViewController.h; path = ViewController/PlayerInfoViewController.h; sourceTree = "<group>"; };
+		50D7A32118753DC000AA35EC /* PlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerInfoViewController.m; path = ViewController/PlayerInfoViewController.m; sourceTree = "<group>"; };
+		50D7A3291875587000AA35EC /* ButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonsViewController.h; path = ViewController/ButtonsViewController.h; sourceTree = "<group>"; };
+		50D7A32A1875587000AA35EC /* ButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonsViewController.m; path = ViewController/ButtonsViewController.m; sourceTree = "<group>"; };
+		50D88F9B1854FC35009EA2E9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		50D88F9C1854FC35009EA2E9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		50DBE6EA1866A9BA0045EA6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50EF2A98188E4424001BAFA5 /* ButtonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonCollectionViewCell.h; path = Control/ButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		50EF2A99188E4424001BAFA5 /* ButtonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonCollectionViewCell.m; path = Control/ButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		50F89B091890DE6A0002BF54 /* map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_icon.png; path = CarControl/images/icons/map_icon.png; sourceTree = "<group>"; };
+		50F89B121890E9AB0002BF54 /* call_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_icon.png; path = CarControl/images/icons/call_icon.png; sourceTree = "<group>"; };
+		50F89B141890EF030002BF54 /* gas_station_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gas_station_icon.png; path = CarControl/images/icons/gas_station_icon.png; sourceTree = "<group>"; };
+		FFBE98D28764439AA278B978 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +264,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D19A7A18694BBA00CCD2A0 /* CoreBluetooth.framework in Frameworks */,
+				50D19A7518694BB300CCD2A0 /* CoreLocation.framework in Frameworks */,
+				50DBE6EB1866A9BA0045EA6D /* AVFoundation.framework in Frameworks */,
+				50988B3718602B9E00E48649 /* libspotify.framework in Frameworks */,
+				50283D5A185AF78C005BFEB9 /* CoreData.framework in Frameworks */,
+				5022111D18551AAA00B816DC /* Security.framework in Frameworks */,
+				5022111B18551A9C00B816DC /* libstdc++.dylib in Frameworks */,
+				5022111918551A8D00B816DC /* CFNetwork.framework in Frameworks */,
 				505724FD185462E5009A9D19 /* CoreGraphics.framework in Frameworks */,
+				50BA907518616CDB00C40296 /* AudioToolbox.framework in Frameworks */,
 				505724FF185462E5009A9D19 /* UIKit.framework in Frameworks */,
 				505724FB185462E5009A9D19 /* Foundation.framework in Frameworks */,
+				787A050290BE47D0BC2916C7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +293,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50283D5E185AFB09005BFEB9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				50D19A8D186A9B7700CCD2A0 /* BluetoothSenderManager.h */,
+				50D19A8C186A9B7700CCD2A0 /* BluetoothSenderManager.m */,
+				50283D5F185AFB31005BFEB9 /* UserManager.h */,
+				50283D60185AFB31005BFEB9 /* UserManager.m */,
+				50D19A8F186AAE6800CCD2A0 /* BluetoothReceiverManager.h */,
+				50D19A90186AAE6800CCD2A0 /* BluetoothReceiverManager.m */,
+				50A6BBC918923B570043D000 /* ContactManager.h */,
+				50A6BBCA18923B570043D000 /* ContactManager.m */,
+				505FB3A11898E2F0001BB872 /* YelpManager.h */,
+				505FB3A21898E2F0001BB872 /* YelpManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		505688D11862D6E00039D0E2 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				50A6BBB6189227800043D000 /* CollectionViewCell */,
+				505688D21862D6FF0039D0E2 /* TrackProgressView.h */,
+				505688D31862D6FF0039D0E2 /* TrackProgressView.m */,
+				50D71A3E18767A2A00A5B6EE /* IconButton.h */,
+				50D71A3F18767A2A00A5B6EE /* IconButton.m */,
+				50C55B8C1887B4060016625D /* PlaylistCollectionViewFlowLayout.h */,
+				50C55B8D1887B4060016625D /* PlaylistCollectionViewFlowLayout.m */,
+				5083743B188CFF2000CE1108 /* InnerShadowView.h */,
+				5083743C188CFF2000CE1108 /* InnerShadowView.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
 		505724EE185462E5009A9D19 = {
 			isa = PBXGroup;
 			children = (
+				50A6BBC7189232D30043D000 /* contact_icon.png */,
+				50F89B141890EF030002BF54 /* gas_station_icon.png */,
+				50F89B121890E9AB0002BF54 /* call_icon.png */,
+				50F89B091890DE6A0002BF54 /* map_icon.png */,
+				50BC504C188FB10D004B4455 /* maps_background.png */,
+				50AC3A7D187A7288008D63DB /* spotify-logo.png */,
+				50D71A44187681EE00A5B6EE /* fontawesome-webfont.ttf */,
+				50988B3318602B0B00E48649 /* SPLoginResources.bundle */,
+				5073D2FA1855A9EC00182933 /* Pods.xcodeproj */,
 				50572500185462E5009A9D19 /* CarControl */,
 				50572519185462E5009A9D19 /* CarControlTests */,
 				505724F9185462E5009A9D19 /* Frameworks */,
 				505724F8185462E5009A9D19 /* Products */,
+				18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +358,20 @@
 		505724F9185462E5009A9D19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50D19A7918694BBA00CCD2A0 /* CoreBluetooth.framework */,
+				50D19A7418694BB300CCD2A0 /* CoreLocation.framework */,
+				50DBE6EA1866A9BA0045EA6D /* AVFoundation.framework */,
+				50BA907418616CDB00C40296 /* AudioToolbox.framework */,
+				50988B3618602B9E00E48649 /* libspotify.framework */,
+				50283D59185AF78B005BFEB9 /* CoreData.framework */,
+				5022111C18551AAA00B816DC /* Security.framework */,
+				5022111A18551A9C00B816DC /* libstdc++.dylib */,
+				5022111818551A8C00B816DC /* CFNetwork.framework */,
 				505724FA185462E5009A9D19 /* Foundation.framework */,
 				505724FC185462E5009A9D19 /* CoreGraphics.framework */,
 				505724FE185462E5009A9D19 /* UIKit.framework */,
 				50572513185462E5009A9D19 /* XCTest.framework */,
+				FFBE98D28764439AA278B978 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,10 +379,23 @@
 		50572500185462E5009A9D19 /* CarControl */ = {
 			isa = PBXGroup;
 			children = (
+				50B2F7F7186BD310008BA8B0 /* Category */,
+				50D19A881869547A00CCD2A0 /* iPad */,
+				505688D11862D6E00039D0E2 /* Control */,
+				50BA907318616CDB00C40296 /* CarControl.entitlements */,
+				50283D5E185AFB09005BFEB9 /* Manager */,
+				50674061185965BA00E28968 /* ViewController */,
+				50732B51185852D400A18554 /* Model */,
 				50572509185462E5009A9D19 /* AppDelegate.h */,
 				5057250A185462E5009A9D19 /* AppDelegate.m */,
+				5022112118551F3B00B816DC /* appkey.c */,
+				5034D8C4185463D20096A36E /* Main.storyboard */,
 				5057250C185462E5009A9D19 /* Images.xcassets */,
+				505688CC1862C5570039D0E2 /* default-cover.png */,
 				50572501185462E5009A9D19 /* Supporting Files */,
+				50713CE61856D6D200B86BAD /* SpotifyManager.h */,
+				50713CE71856D6D200B86BAD /* SpotifyManager.m */,
+				50283D56185AF666005BFEB9 /* CoreData.xcdatamodeld */,
 			);
 			path = CarControl;
 			sourceTree = "<group>";
@@ -144,6 +429,116 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50674061185965BA00E28968 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50D88F9B1854FC35009EA2E9 /* MainViewController.h */,
+				50D88F9C1854FC35009EA2E9 /* MainViewController.m */,
+				50D7A326187557A400AA35EC /* Home */,
+				50D7A328187557DB00AA35EC /* Settings */,
+				50674062185965E800E28968 /* SpotifyPlaylistViewController.h */,
+				50674063185965E800E28968 /* SpotifyPlaylistViewController.m */,
+				50283D4A185ACCE7005BFEB9 /* SpotifyTracksViewController.h */,
+				50283D4B185ACCE7005BFEB9 /* SpotifyTracksViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		50732B51185852D400A18554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50283D5B185AFA63005BFEB9 /* User.h */,
+				50283D5C185AFA63005BFEB9 /* User.m */,
+				50732B531858547700A18554 /* SpotifyPlaylist.h */,
+				50732B541858547700A18554 /* SpotifyPlaylist.m */,
+				50365B5D185ECD7F00B0AE12 /* UserSetting.h */,
+				50365B5E185ECD7F00B0AE12 /* UserSetting.m */,
+				50B2F7E9186B9EC2008BA8B0 /* Share.h */,
+				50B2F7EA186B9EC2008BA8B0 /* Share.m */,
+				50837433188CEEF900CE1108 /* Contact.h */,
+				50837434188CEEF900CE1108 /* Contact.m */,
+				508F401E189A0CD500EFE750 /* POI.h */,
+				508F401F189A0CD500EFE750 /* POI.m */,
+				508F402F189A26BD00EFE750 /* POIQuery.h */,
+				508F4030189A26BD00EFE750 /* POIQuery.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5073D2FB1855A9EC00182933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5073D3011855A9EC00182933 /* libPods.a */,
+				5073D3031855A9EC00182933 /* libPods-CocoaLibSpotify.a */,
+				50BC5056188FB10D004B4455 /* libPods-ColorUtils.a */,
+				50AAD067187BB5610040AB8E /* libPods-FontAwesome+iOS.a */,
+				50BC5058188FB10D004B4455 /* libPods-LBBlurredImage.a */,
+				50A6BBC0189227800043D000 /* libPods-MBProgressHUD.a */,
+				508F402C189A0CD500EFE750 /* libPods-NSData+Base64.a */,
+				50EF2AA1188E4424001BAFA5 /* libPods-SKInnerShadowLayer.a */,
+				508F402E189A0CD500EFE750 /* libPods-cocoa-oauth.a */,
+				5073D3051855A9EC00182933 /* libPods-libspotify.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A6BBB6189227800043D000 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				50EF2A98188E4424001BAFA5 /* ButtonCollectionViewCell.h */,
+				50EF2A99188E4424001BAFA5 /* ButtonCollectionViewCell.m */,
+				50526410187E728E00EB5451 /* PlaylistCollectionViewCell.h */,
+				50526411187E728E00EB5451 /* PlaylistCollectionViewCell.m */,
+				50A5D43118864EEB00B8CBA5 /* TrackCollectionViewCell.h */,
+				50A5D43218864EEB00B8CBA5 /* TrackCollectionViewCell.m */,
+				50A6BBC1189229C10043D000 /* PhoneActionCollectionViewCell.h */,
+				50A6BBC2189229C10043D000 /* PhoneActionCollectionViewCell.m */,
+				50A6BBC418922F6B0043D000 /* ContactCollectionViewCell.h */,
+				50A6BBC518922F6B0043D000 /* ContactCollectionViewCell.m */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		50B2F7F7186BD310008BA8B0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				50B2F7F8186BD338008BA8B0 /* NSMutableArray+Helpers.h */,
+				50B2F7F9186BD338008BA8B0 /* NSMutableArray+Helpers.m */,
+				50AAD05E187BB5600040AB8E /* UIImageView+Cover.h */,
+				50AAD05F187BB5600040AB8E /* UIImageView+Cover.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		50D19A881869547A00CCD2A0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		50D7A326187557A400AA35EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				507586D5186D5C7900640383 /* PlayerViewController.h */,
+				507586D6186D5C7900640383 /* PlayerViewController.m */,
+				50D7A32018753DC000AA35EC /* PlayerInfoViewController.h */,
+				50D7A32118753DC000AA35EC /* PlayerInfoViewController.m */,
+				50D7A3291875587000AA35EC /* ButtonsViewController.h */,
+				50D7A32A1875587000AA35EC /* ButtonsViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		50D7A328187557DB00AA35EC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				50283D50185AEE90005BFEB9 /* SettingsViewController.h */,
+				50283D51185AEE90005BFEB9 /* SettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +546,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50572523185462E5009A9D19 /* Build configuration list for PBXNativeTarget "CarControl" */;
 			buildPhases = (
+				D7D7AC43BB664E19BF3C4BBC /* Check Pods Manifest.lock */,
 				505724F3185462E5009A9D19 /* Sources */,
 				505724F4185462E5009A9D19 /* Frameworks */,
 				505724F5185462E5009A9D19 /* Resources */,
+				38ECB2C3E05147B5A15C36F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +588,17 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Dan Attali";
 				TargetAttributes = {
+					505724F6185462E5009A9D19 = {
+						DevelopmentTeam = 84S9L7W2SN;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
 					50572511185462E5009A9D19 = {
 						TestTargetID = 505724F6185462E5009A9D19;
 					};
@@ -206,6 +614,12 @@
 			mainGroup = 505724EE185462E5009A9D19;
 			productRefGroup = 505724F8185462E5009A9D19 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5073D2FB1855A9EC00182933 /* Products */;
+					ProjectRef = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				505724F6185462E5009A9D19 /* CarControl */,
@@ -214,11 +628,94 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		5073D3011855A9EC00182933 /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 5073D3001855A9EC00182933 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5073D3031855A9EC00182933 /* libPods-CocoaLibSpotify.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-CocoaLibSpotify.a";
+			remoteRef = 5073D3021855A9EC00182933 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5073D3051855A9EC00182933 /* libPods-libspotify.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-libspotify.a";
+			remoteRef = 5073D3041855A9EC00182933 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		508F402C189A0CD500EFE750 /* libPods-NSData+Base64.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NSData+Base64.a";
+			remoteRef = 508F402B189A0CD500EFE750 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		508F402E189A0CD500EFE750 /* libPods-cocoa-oauth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-cocoa-oauth.a";
+			remoteRef = 508F402D189A0CD500EFE750 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50A6BBC0189227800043D000 /* libPods-MBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-MBProgressHUD.a";
+			remoteRef = 50A6BBBF189227800043D000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50AAD067187BB5610040AB8E /* libPods-FontAwesome+iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-FontAwesome+iOS.a";
+			remoteRef = 50AAD066187BB5610040AB8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50BC5056188FB10D004B4455 /* libPods-ColorUtils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-ColorUtils.a";
+			remoteRef = 50BC5055188FB10D004B4455 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50BC5058188FB10D004B4455 /* libPods-LBBlurredImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-LBBlurredImage.a";
+			remoteRef = 50BC5057188FB10D004B4455 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50EF2AA1188E4424001BAFA5 /* libPods-SKInnerShadowLayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SKInnerShadowLayer.a";
+			remoteRef = 50EF2AA0188E4424001BAFA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		505724F5185462E5009A9D19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A6BBC8189232D30043D000 /* contact_icon.png in Resources */,
+				50F89B151890EF030002BF54 /* gas_station_icon.png in Resources */,
+				50F89B131890E9AB0002BF54 /* call_icon.png in Resources */,
+				50F89B0A1890DE6A0002BF54 /* map_icon.png in Resources */,
+				50BC504D188FB10D004B4455 /* maps_background.png in Resources */,
+				50AC3A7E187A7288008D63DB /* spotify-logo.png in Resources */,
+				50D71A45187681EE00A5B6EE /* fontawesome-webfont.ttf in Resources */,
+				505688CD1862C5570039D0E2 /* default-cover.png in Resources */,
+				50988B3418602B0B00E48649 /* SPLoginResources.bundle in Resources */,
+				5034D8C5185463D20096A36E /* Main.storyboard in Resources */,
 				50572505185462E5009A9D19 /* InfoPlist.strings in Resources */,
 				5057250D185462E5009A9D19 /* Images.xcassets in Resources */,
 			);
@@ -234,13 +731,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38ECB2C3E05147B5A15C36F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D7AC43BB664E19BF3C4BBC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		505724F3185462E5009A9D19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508F4020189A0CD500EFE750 /* POI.m in Sources */,
+				50A5D43318864EEB00B8CBA5 /* TrackCollectionViewCell.m in Sources */,
+				50732B551858547700A18554 /* SpotifyPlaylist.m in Sources */,
+				50365B5F185ECD7F00B0AE12 /* UserSetting.m in Sources */,
+				50713CE81856D6D200B86BAD /* SpotifyManager.m in Sources */,
+				50A6BBCB18923B570043D000 /* ContactManager.m in Sources */,
+				50283D58185AF666005BFEB9 /* CoreData.xcdatamodeld in Sources */,
+				50D7A32218753DC000AA35EC /* PlayerInfoViewController.m in Sources */,
 				5057250B185462E5009A9D19 /* AppDelegate.m in Sources */,
+				50B2F7EB186B9EC2008BA8B0 /* Share.m in Sources */,
+				505688D41862D6FF0039D0E2 /* TrackProgressView.m in Sources */,
+				50D71A4018767A2A00A5B6EE /* IconButton.m in Sources */,
+				50526412187E728E00EB5451 /* PlaylistCollectionViewCell.m in Sources */,
+				508F4031189A26BD00EFE750 /* POIQuery.m in Sources */,
+				50283D52185AEE90005BFEB9 /* SettingsViewController.m in Sources */,
+				50D19A91186AAE6800CCD2A0 /* BluetoothReceiverManager.m in Sources */,
+				50B2F7FA186BD338008BA8B0 /* NSMutableArray+Helpers.m in Sources */,
+				50AAD060187BB5600040AB8E /* UIImageView+Cover.m in Sources */,
+				50283D5D185AFA63005BFEB9 /* User.m in Sources */,
+				50C55B8E1887B4060016625D /* PlaylistCollectionViewFlowLayout.m in Sources */,
+				50D7A32B1875587000AA35EC /* ButtonsViewController.m in Sources */,
+				50837435188CEEF900CE1108 /* Contact.m in Sources */,
+				50674064185965E800E28968 /* SpotifyPlaylistViewController.m in Sources */,
+				50EF2A9A188E4424001BAFA5 /* ButtonCollectionViewCell.m in Sources */,
+				50283D4C185ACCE7005BFEB9 /* SpotifyTracksViewController.m in Sources */,
+				50D19A8E186A9B7700CCD2A0 /* BluetoothSenderManager.m in Sources */,
+				50D88F9D1854FC35009EA2E9 /* MainViewController.m in Sources */,
+				50283D61185AFB31005BFEB9 /* UserManager.m in Sources */,
+				50A6BBC3189229C10043D000 /* PhoneActionCollectionViewCell.m in Sources */,
+				5083743D188CFF2000CE1108 /* InnerShadowView.m in Sources */,
+				50A6BBC618922F6B0043D000 /* ContactCollectionViewCell.m in Sources */,
+				505FB3A31898E2F0001BB872 /* YelpManager.m in Sources */,
 				50572507185462E5009A9D19 /* main.m in Sources */,
+				507586D7186D5C7900640383 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +879,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.0;
 			};
 			name = Debug;
 		};
@@ -349,33 +911,59 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		50572524185462E5009A9D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CarControl/CarControl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dan.attali/Documents/Dev/ios/CarControl,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarControl/CarControl-Prefix.pch";
 				INFOPLIST_FILE = "CarControl/CarControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		50572525185462E5009A9D19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CarControl/CarControl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dan.attali/Documents/Dev/ios/CarControl,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarControl/CarControl-Prefix.pch";
 				INFOPLIST_FILE = "CarControl/CarControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos7.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -441,6 +1029,7 @@
 				50572525185462E5009A9D19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50572526185462E5009A9D19 /* Build configuration list for PBXNativeTarget "CarControlTests" */ = {
 			isa = XCConfigurationList;
@@ -449,8 +1038,22 @@
 				50572528185462E5009A9D19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50283D56185AF666005BFEB9 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50283D57185AF666005BFEB9 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 50283D57185AF666005BFEB9 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 505724EF185462E5009A9D19 /* Project object */;
 }
