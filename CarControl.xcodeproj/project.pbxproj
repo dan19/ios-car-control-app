@@ -70,7 +70,7 @@
 		50F89B0A1890DE6A0002BF54 /* map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F89B091890DE6A0002BF54 /* map_icon.png */; };
 		50F89B131890E9AB0002BF54 /* call_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F89B121890E9AB0002BF54 /* call_icon.png */; };
 		50F89B151890EF030002BF54 /* gas_station_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F89B141890EF030002BF54 /* gas_station_icon.png */; };
-		787A050290BE47D0BC2916C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBE98D28764439AA278B978 /* libPods.a */; };
+		CB7D400EB635BD5764B235C6 /* libPods-CarControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC0A8888008D478C98879CC /* libPods-CarControl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,80 +81,73 @@
 			remoteGlobalIDString = 505724F6185462E5009A9D19;
 			remoteInfo = CarControl;
 		};
-		5073D3001855A9EC00182933 /* PBXContainerItemProxy */ = {
+		707D2AA01F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 035659D2D83E4C2DB25835C3;
-			remoteInfo = Pods;
+			remoteGlobalIDString = D73445CFB933D1E39D85C5AC448AFE47;
+			remoteInfo = "cocoa-oauth";
 		};
-		5073D3021855A9EC00182933 /* PBXContainerItemProxy */ = {
+		707D2AA21F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A8409285D5C84C2B834C15CB;
-			remoteInfo = "Pods-CocoaLibSpotify";
+			remoteGlobalIDString = 5FDF61488E55F63488A6664E45FF4168;
+			remoteInfo = CocoaLibSpotify;
 		};
-		5073D3041855A9EC00182933 /* PBXContainerItemProxy */ = {
+		707D2AA41F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 128D31EC2B8F4372BD336EC2;
-			remoteInfo = "Pods-libspotify";
+			remoteGlobalIDString = 27959681224D1DF17D1C7240F848A67F;
+			remoteInfo = ColorUtils;
 		};
-		508F402B189A0CD500EFE750 /* PBXContainerItemProxy */ = {
+		707D2AA61F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B408D56A4D77486891E068D1;
-			remoteInfo = "Pods-NSData+Base64";
+			remoteGlobalIDString = 623A4D9201634526B7ADC61FAF32D8DE;
+			remoteInfo = "FontAwesome+iOS";
 		};
-		508F402D189A0CD500EFE750 /* PBXContainerItemProxy */ = {
+		707D2AA81F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 73AD7475537643C6AAB43BEB;
-			remoteInfo = "Pods-cocoa-oauth";
+			remoteGlobalIDString = 74AA3AFCAA5C1ADADE778BACBF488D5B;
+			remoteInfo = LBBlurredImage;
 		};
-		50A6BBBF189227800043D000 /* PBXContainerItemProxy */ = {
+		707D2AAA1F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B532CAC1302C4EFC88ADA633;
-			remoteInfo = "Pods-MBProgressHUD";
+			remoteGlobalIDString = A813AF4413E6FF910FAE573EE58896CB;
+			remoteInfo = MBProgressHUD;
 		};
-		50AAD066187BB5610040AB8E /* PBXContainerItemProxy */ = {
+		707D2AAC1F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8759BD70A7834A5292BF5CDB;
-			remoteInfo = "Pods-FontAwesome+iOS";
+			remoteGlobalIDString = E8E58CE7AF7F6A59AF32DFD35609F72F;
+			remoteInfo = "NSData+Base64";
 		};
-		50BC5055188FB10D004B4455 /* PBXContainerItemProxy */ = {
+		707D2AAE1F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 63B68B55E00D401FAE9358A7;
-			remoteInfo = "Pods-ColorUtils";
+			remoteGlobalIDString = C6306AB9E4BA90695EAA9F4B93EFA78F;
+			remoteInfo = "Pods-CarControl";
 		};
-		50BC5057188FB10D004B4455 /* PBXContainerItemProxy */ = {
+		707D2AB01F185CEC00B5CD78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E5B1AC62705F4DAC982C9EB3;
-			remoteInfo = "Pods-LBBlurredImage";
-		};
-		50EF2AA0188E4424001BAFA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5073D2FA1855A9EC00182933 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DD3DD385DD74491BA7BFE0C2;
-			remoteInfo = "Pods-SKInnerShadowLayer";
+			remoteGlobalIDString = 4A6881F03B99BBCA4D2860C97EE973AB;
+			remoteInfo = SKInnerShadowLayer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4111CA5BB25F369701F1DB9B /* Pods-CarControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarControl/Pods-CarControl.release.xcconfig"; sourceTree = "<group>"; };
 		5022111818551A8C00B816DC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5022111A18551A9C00B816DC /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		5022111C18551AAA00B816DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -256,7 +249,8 @@
 		50F89B091890DE6A0002BF54 /* map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_icon.png; path = CarControl/images/icons/map_icon.png; sourceTree = "<group>"; };
 		50F89B121890E9AB0002BF54 /* call_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_icon.png; path = CarControl/images/icons/call_icon.png; sourceTree = "<group>"; };
 		50F89B141890EF030002BF54 /* gas_station_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gas_station_icon.png; path = CarControl/images/icons/gas_station_icon.png; sourceTree = "<group>"; };
-		FFBE98D28764439AA278B978 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC0A8888008D478C98879CC /* libPods-CarControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0059940642D9371FF8A95BF /* Pods-CarControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarControl/Pods-CarControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,7 +270,7 @@
 				50BA907518616CDB00C40296 /* AudioToolbox.framework in Frameworks */,
 				505724FF185462E5009A9D19 /* UIKit.framework in Frameworks */,
 				505724FB185462E5009A9D19 /* Foundation.framework in Frameworks */,
-				787A050290BE47D0BC2916C7 /* libPods.a in Frameworks */,
+				CB7D400EB635BD5764B235C6 /* libPods-CarControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +287,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380F64E4305E5F4B0826E9E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0059940642D9371FF8A95BF /* Pods-CarControl.debug.xcconfig */,
+				4111CA5BB25F369701F1DB9B /* Pods-CarControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		50283D5E185AFB09005BFEB9 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,7 +345,7 @@
 				50572519185462E5009A9D19 /* CarControlTests */,
 				505724F9185462E5009A9D19 /* Frameworks */,
 				505724F8185462E5009A9D19 /* Products */,
-				18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */,
+				380F64E4305E5F4B0826E9E7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -371,7 +374,7 @@
 				505724FC185462E5009A9D19 /* CoreGraphics.framework */,
 				505724FE185462E5009A9D19 /* UIKit.framework */,
 				50572513185462E5009A9D19 /* XCTest.framework */,
-				FFBE98D28764439AA278B978 /* libPods.a */,
+				8DC0A8888008D478C98879CC /* libPods-CarControl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -468,16 +471,15 @@
 		5073D2FB1855A9EC00182933 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5073D3011855A9EC00182933 /* libPods.a */,
-				5073D3031855A9EC00182933 /* libPods-CocoaLibSpotify.a */,
-				50BC5056188FB10D004B4455 /* libPods-ColorUtils.a */,
-				50AAD067187BB5610040AB8E /* libPods-FontAwesome+iOS.a */,
-				50BC5058188FB10D004B4455 /* libPods-LBBlurredImage.a */,
-				50A6BBC0189227800043D000 /* libPods-MBProgressHUD.a */,
-				508F402C189A0CD500EFE750 /* libPods-NSData+Base64.a */,
-				50EF2AA1188E4424001BAFA5 /* libPods-SKInnerShadowLayer.a */,
-				508F402E189A0CD500EFE750 /* libPods-cocoa-oauth.a */,
-				5073D3051855A9EC00182933 /* libPods-libspotify.a */,
+				707D2AA11F185CEC00B5CD78 /* libcocoa-oauth.a */,
+				707D2AA31F185CEC00B5CD78 /* libCocoaLibSpotify.a */,
+				707D2AA51F185CEC00B5CD78 /* libColorUtils.a */,
+				707D2AA71F185CEC00B5CD78 /* libFontAwesome+iOS.a */,
+				707D2AA91F185CEC00B5CD78 /* libLBBlurredImage.a */,
+				707D2AAB1F185CEC00B5CD78 /* libMBProgressHUD.a */,
+				707D2AAD1F185CEC00B5CD78 /* libNSData+Base64.a */,
+				707D2AAF1F185CEC00B5CD78 /* libPods-CarControl.a */,
+				707D2AB11F185CEC00B5CD78 /* libSKInnerShadowLayer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -546,11 +548,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50572523185462E5009A9D19 /* Build configuration list for PBXNativeTarget "CarControl" */;
 			buildPhases = (
-				D7D7AC43BB664E19BF3C4BBC /* Check Pods Manifest.lock */,
+				F8776A38B02F3FD8CD0D8837 /* [CP] Check Pods Manifest.lock */,
 				505724F3185462E5009A9D19 /* Sources */,
 				505724F4185462E5009A9D19 /* Frameworks */,
 				505724F5185462E5009A9D19 /* Resources */,
-				38ECB2C3E05147B5A15C36F6 /* Copy Pods Resources */,
+				D67D97EC8219E03E3123F2B3 /* [CP] Embed Pods Frameworks */,
+				B354488E7D1178C490C22136 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -585,7 +588,7 @@
 		505724EF185462E5009A9D19 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Dan Attali";
 				TargetAttributes = {
 					505724F6185462E5009A9D19 = {
@@ -629,74 +632,67 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5073D3011855A9EC00182933 /* libPods.a */ = {
+		707D2AA11F185CEC00B5CD78 /* libcocoa-oauth.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libPods.a;
-			remoteRef = 5073D3001855A9EC00182933 /* PBXContainerItemProxy */;
+			path = "libcocoa-oauth.a";
+			remoteRef = 707D2AA01F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5073D3031855A9EC00182933 /* libPods-CocoaLibSpotify.a */ = {
+		707D2AA31F185CEC00B5CD78 /* libCocoaLibSpotify.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-CocoaLibSpotify.a";
-			remoteRef = 5073D3021855A9EC00182933 /* PBXContainerItemProxy */;
+			path = libCocoaLibSpotify.a;
+			remoteRef = 707D2AA21F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5073D3051855A9EC00182933 /* libPods-libspotify.a */ = {
+		707D2AA51F185CEC00B5CD78 /* libColorUtils.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-libspotify.a";
-			remoteRef = 5073D3041855A9EC00182933 /* PBXContainerItemProxy */;
+			path = libColorUtils.a;
+			remoteRef = 707D2AA41F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		508F402C189A0CD500EFE750 /* libPods-NSData+Base64.a */ = {
+		707D2AA71F185CEC00B5CD78 /* libFontAwesome+iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-NSData+Base64.a";
-			remoteRef = 508F402B189A0CD500EFE750 /* PBXContainerItemProxy */;
+			path = "libFontAwesome+iOS.a";
+			remoteRef = 707D2AA61F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		508F402E189A0CD500EFE750 /* libPods-cocoa-oauth.a */ = {
+		707D2AA91F185CEC00B5CD78 /* libLBBlurredImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-cocoa-oauth.a";
-			remoteRef = 508F402D189A0CD500EFE750 /* PBXContainerItemProxy */;
+			path = libLBBlurredImage.a;
+			remoteRef = 707D2AA81F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		50A6BBC0189227800043D000 /* libPods-MBProgressHUD.a */ = {
+		707D2AAB1F185CEC00B5CD78 /* libMBProgressHUD.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-MBProgressHUD.a";
-			remoteRef = 50A6BBBF189227800043D000 /* PBXContainerItemProxy */;
+			path = libMBProgressHUD.a;
+			remoteRef = 707D2AAA1F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		50AAD067187BB5610040AB8E /* libPods-FontAwesome+iOS.a */ = {
+		707D2AAD1F185CEC00B5CD78 /* libNSData+Base64.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-FontAwesome+iOS.a";
-			remoteRef = 50AAD066187BB5610040AB8E /* PBXContainerItemProxy */;
+			path = "libNSData+Base64.a";
+			remoteRef = 707D2AAC1F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		50BC5056188FB10D004B4455 /* libPods-ColorUtils.a */ = {
+		707D2AAF1F185CEC00B5CD78 /* libPods-CarControl.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-ColorUtils.a";
-			remoteRef = 50BC5055188FB10D004B4455 /* PBXContainerItemProxy */;
+			path = "libPods-CarControl.a";
+			remoteRef = 707D2AAE1F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		50BC5058188FB10D004B4455 /* libPods-LBBlurredImage.a */ = {
+		707D2AB11F185CEC00B5CD78 /* libSKInnerShadowLayer.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libPods-LBBlurredImage.a";
-			remoteRef = 50BC5057188FB10D004B4455 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		50EF2AA1188E4424001BAFA5 /* libPods-SKInnerShadowLayer.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-SKInnerShadowLayer.a";
-			remoteRef = 50EF2AA0188E4424001BAFA5 /* PBXContainerItemProxy */;
+			path = libSKInnerShadowLayer.a;
+			remoteRef = 707D2AB01F185CEC00B5CD78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -732,34 +728,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38ECB2C3E05147B5A15C36F6 /* Copy Pods Resources */ = {
+		B354488E7D1178C490C22136 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarControl/Pods-CarControl-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D7D7AC43BB664E19BF3C4BBC /* Check Pods Manifest.lock */ = {
+		D67D97EC8219E03E3123F2B3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarControl/Pods-CarControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8776A38B02F3FD8CD0D8837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -848,7 +859,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -858,13 +868,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -877,9 +893,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -887,7 +903,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -897,30 +912,34 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		50572524185462E5009A9D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */;
+			baseConfigurationReference = F0059940642D9371FF8A95BF /* Pods-CarControl.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CarControl/CarControl.entitlements;
@@ -933,10 +952,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarControl/CarControl-Prefix.pch";
 				INFOPLIST_FILE = "CarControl/CarControl-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danattali.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -944,9 +964,8 @@
 		};
 		50572525185462E5009A9D19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18D8279B1A8D43BBB2CEFB14 /* Pods.xcconfig */;
+			baseConfigurationReference = 4111CA5BB25F369701F1DB9B /* Pods-CarControl.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CarControl/CarControl.entitlements;
@@ -959,10 +978,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarControl/CarControl-Prefix.pch";
 				INFOPLIST_FILE = "CarControl/CarControl-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danattali.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -971,7 +991,6 @@
 		50572527185462E5009A9D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarControl.app/CarControl";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -985,6 +1004,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CarControlTests/CarControlTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danattali.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -994,7 +1014,6 @@
 		50572528185462E5009A9D19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarControl.app/CarControl";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1004,6 +1023,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarControl/CarControl-Prefix.pch";
 				INFOPLIST_FILE = "CarControlTests/CarControlTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danattali.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
